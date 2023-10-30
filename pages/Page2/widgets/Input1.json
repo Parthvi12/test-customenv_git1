@@ -6,7 +6,7 @@
     "type": "INPUT_WIDGET_V2",
     "animateLoading": true,
     "resetOnSubmit": true,
-    "leftColumn": 40,
+    "leftColumn": 61,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"}
@@ -45,7 +45,7 @@
     "key": "hudbq21uji",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
-    "rightColumn": 60,
+    "rightColumn": 64,
     "widgetId": "1xl5riu4hg",
     "minWidth": 450,
     "label": "Label",
