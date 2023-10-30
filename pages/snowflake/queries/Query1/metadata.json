@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
+    "pageId": "snowflake",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -33,7 +33,7 @@
     "userPermissions": [],
     "createdAt": "2023-10-30T09:39:59Z"
   },
-  "id": "Page1_Query1",
+  "id": "snowflake_Query1",
   "deleted": false,
   "gitSyncId": "653f795e23beca71e4a6ec3d_653f79ef23beca71e4a6ec69"
 }

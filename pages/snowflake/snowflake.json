@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "snowflake",
+    "slug": "snowflake",
     "layouts": [
       {
         "viewMode": false,
@@ -28,7 +28,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page1_Query1",
+              "id": "snowflake_Query1",
               "name": "Query1",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -39,14 +39,15 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "snowflake",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "deleted": false,
   "gitSyncId": "653f795e23beca71e4a6ec3d_653f79e623beca71e4a6ec64"
