@@ -1,27 +1,26 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "airtablebranch",
+    "slug": "airtablebranch",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 580,
+          "bottomRow": 2050,
           "containerStyle": "none",
-          "snapRows": 124,
+          "snapRows": 38,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
+          "minHeight": 400,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -29,18 +28,10 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page1_Query1",
-              "name": "Query1",
+              "id": "airtablebranch_Api1",
+              "name": "Api1",
               "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Page1_Query2",
-              "name": "Query2",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
+              "pluginType": "REMOTE",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
@@ -48,15 +39,16 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "airtablebranch",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "653f41e923beca71e4a6e45e_653f41e923beca71e4a6e461"
+  "gitSyncId": "653f4bb823beca71e4a6e5ba_653f65d923beca71e4a6e8a2"
 }
