@@ -3,6 +3,18 @@
     {
       "id": "postgres",
       "isDefault": true
+    },
+    {
+      "id": "Movies",
+      "isDefault": false
+    },
+    {
+      "id": "Curl",
+      "isDefault": false
+    },
+    {
+      "id": "js",
+      "isDefault": false
     }
   ],
   "viewMode": false,

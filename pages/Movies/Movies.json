@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "postgres",
-    "slug": "postgres",
+    "name": "Movies",
+    "slug": "movies",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 860,
+          "bottomRow": 880,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -29,27 +29,37 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "postgres_SelectQuery",
-              "name": "SelectQuery",
+              "id": "Movies_FindQuery",
+              "name": "FindQuery",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "data_table.sortOrder.column || 'genres'",
+                "key_select.selectedOptionValue",
+                "data_table.sortOrder.order == \"desc\" ? -1 : 1",
+                "data_table.pageSize",
+                "data_table.searchText||\"\"",
+                "(data_table.pageNo - 1) * data_table.pageSize",
+                "order_select.selectedOptionValue"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
         ],
         "layoutOnLoadActionErrors": [],
+        "mongoEscapedWidgetNames": [
+          "data_table"
+        ],
         "validOnPageLoadActions": true,
-        "id": "postgres",
+        "id": "Movies",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": [],
-    "isHidden": false
+    "policies": []
   },
   "deleted": false,
-  "gitSyncId": "653f45b723beca71e4a6e4ab_653f46e323beca71e4a6e4e5"
+  "gitSyncId": "653f45b723beca71e4a6e4ab_653f4b7723beca71e4a6e58b"
 }

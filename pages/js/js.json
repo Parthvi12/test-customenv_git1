@@ -1,46 +1,49 @@
 {
   "unpublishedPage": {
-    "name": "postgres",
-    "slug": "postgres",
+    "name": "js",
+    "slug": "js",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 1174,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 860,
+          "bottomRow": 380,
           "containerStyle": "none",
-          "snapRows": 125,
+          "snapRows": 55,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 900,
+          "minHeight": 570,
           "parentColumnSpace": 1,
-          "dynamicTriggerPathList": [],
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
         "layoutOnLoadActions": [
           [
             {
-              "id": "postgres_SelectQuery",
-              "name": "SelectQuery",
+              "id": "js_JSObject1.myFun1",
+              "name": "JSObject1.myFun1",
+              "collectionId": "js_JSObject1",
+              "clientSideExecution": true,
               "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "function () {\n  return 10;\n}"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "postgres",
+        "id": "js",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -51,5 +54,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "653f45b723beca71e4a6e4ab_653f46e323beca71e4a6e4e5"
+  "gitSyncId": "653f45b723beca71e4a6e4ab_653f4bef23beca71e4a6e5c7"
 }
